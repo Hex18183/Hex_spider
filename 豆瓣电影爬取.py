@@ -17,5 +17,6 @@ for item in soup.find_all("div", class_="item"):
         "评分": rating,
         "详情": info
     })
-    print(movies)
+for key in range(len(movies)+1):
+    print(movies[key])
 
